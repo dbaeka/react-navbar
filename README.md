@@ -9,7 +9,7 @@ It is responsive and the navbar items collapse into a hamburger menu on mobile.
 ## Install
 
 ```bash
-npm install --save @ovieokeh/react-navbar
+npm install --save @dbaeka/react-navbar
 ```
 
 ## Available Props
@@ -43,14 +43,9 @@ If you pass in a `className` prop, you can style this class in your custom css t
 
 ## Usage
 
-Play with a
-
-- [live CodeSandbox here (JS)](https://codesandbox.io/s/react-navbar-demo-48g1c)
-- [live codeSandbox here (TS)](https://codesandbox.io/s/react-navbar-demo--typescript-gm15y)
-
 ```tsx
 import * as React from 'react'
-import Navbar from '@ovie/react-navbar'
+import Navbar from '@dbaeka/react-navbar'
 
 const navTheme = {
   mainColor: '#52b788',
@@ -89,5 +84,3 @@ const Example = () => {
   )
 }
 ```
-
-![Example](example-demo.gif)
